@@ -85,6 +85,8 @@ html body {
 }
 .main-header_pic{
     fill: #ffffff;
+    width: 64px;
+    height: 56px;
 }
 .main-header_logo:hover .main-header_pic{
     fill: #c7b29a;
@@ -143,11 +145,69 @@ html body {
     border: none;
     outline: none;
 }
+.main-header_fist_cart_pic{
+    width: 18px;
+    height: 24px;
+}
 .main-header_fist_cart:hover{
     fill: #c7b29a;
 }
 .main-header_fist_cart:active{
     fill: cadetblue;
+}
+
+.main-header_form {
+    position: relative;
+    width: 300px;
+    margin: 10px auto 0 auto;
+    height: 42px;
+}
+.main-header_form_search {
+    height: 42px;
+    width: 0;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    transition: .4s cubic-bezier(0, 0.8, 0, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+}
+.main-header_form_search:focus {
+    width: 300px;
+    border-bottom: 2px solid #c7b29a;
+    background: #c7b29a;
+    margin-top: 25px;
+}
+.main-header_form_button {
+    background: transparent;
+    border: none;
+    outline: none;
+    height: 24px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    padding: 0;
+}
+.main-header_form_button svg{
+    fill: #ffffff;
+    width: 24px;
+    height: 24px;
+}
+.main-header_form:hover .main-header_form_button svg{
+    fill: #c7b29a;
+}
+
+.main-header_form_button:before {
+    content: "";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #ffffff;
 }
 .main-header_last{
     position: relative;
@@ -260,6 +320,7 @@ html body {
     fill:  #555555;
     display: block;
     margin: auto;
+    width: 49px;
     height: 49px;
 }
 .services_block_headline{
@@ -587,4 +648,121 @@ html body {
 }
 .projects_buttonmore:active .projects_buttonmore_txt{
     color:  #c7b29a;
+}
+.main-content_videoblock{
+    width: 1920px;
+    min-height: 705px;
+    position: relative;
+}
+.videoblock_video{
+    width: 100%;
+    position: absolute;
+}
+.videoblock_lightbox{
+    position: relative;
+    margin: 0 auto;
+    top: 210px;
+    text-align: center;
+    width: 552px;
+}
+
+.videoblock_lightbox_link:hover  svg{
+    fill:  #c7b299;
+}
+.videoblock_lightbox_link svg{
+    fill: #ffffff;
+    width: 70px;
+    height: 70px;
+}
+.videoblock_lightbox_headline{
+    font-family: 'raleway-medium', sans-serif;
+    color:  #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 59px;
+    margin-bottom: 29px;
+}
+.videoblock_lightbox_txt{
+    font-family: 'montserrat-light', sans-serif;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.videoblock_lightbox_time{
+    font-family: 'montserrat-regular', sans-serif;
+    color:  #c7b299;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin: 0;
+}
+.main-content_mobile{
+    background-color:  #fbfaf8;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.main-content_mobile_description{
+    width: 657px;
+    margin-left: 31px;
+    margin-top: 115px;
+}
+.mobile_description_headline{
+    font-family: 'raleway-semibold', sans-serif;
+    color:  #555555;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin: 0 0 40px 0;
+}
+.mobile_description_txt{
+    font-family: 'montserrat-light', sans-serif;
+    color:  #8c8c8c;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin: 0;
+}
+.mobile_description_details{
+    margin-left: 50px;
+    margin-top: 45px;
+    font-family: 'montserrat-light', sans-serif;
+    color:  #8c8c8c;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 32px;/* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+.mobile_description_pluses{
+    margin-bottom: 12px;
+}
+.pluses_title::-webkit-details-marker{
+    display: none;
+}
+.pluses_title{
+    position: relative;
+    outline: none;
+    left: 40px;
+}
+.pluses_title:before{
+    content: "≫";
+    display: block;
+    background-color:  #c7b299;
+    border-radius: 50%;
+    color:  #ffffff;
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    position: absolute;
+    top: 5px;
+    left: -40px;
+    text-align: center;
 }
