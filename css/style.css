@@ -284,6 +284,10 @@ html body {
     fill: #ffffff;
     margin-right: 150px;
 }
+.main-header_last_slogan_icon{
+    width: 40px;
+    height: 73px;
+}
 .main-header_last_pagination{
     display: flex;
     width: 98px;
@@ -603,6 +607,10 @@ html body {
     margin-right: 28px;
     fill: #ffffff;
 }
+.projects_article_links_icon{
+    width: 26px;
+    height: 26px;
+}
 .projects_article_links_lupa{
     width: 26px;
     height: 26px;
@@ -670,6 +678,10 @@ html body {
 }
 .videoblock_lightbox_link svg{
     fill: #ffffff;
+    width: 70px;
+    height: 70px;
+}
+.videoblock_lightbox_link_svg{
     width: 70px;
     height: 70px;
 }
