@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="396" column="16" selection-start-line="396" selection-start-column="13" selection-end-line="396" selection-end-column="16" />
+            <state relative-caret-position="102">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding>
                 <element signature="n#svg#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#button#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -39,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="11645">
               <caret line="685" column="17" selection-start-line="685" selection-start-column="17" selection-end-line="685" selection-end-column="17" />
             </state>
           </provider>
@@ -107,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,12 +134,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Project3/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2.Макет №2/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -172,11 +172,12 @@
       <workItem from="1551194976888" duration="13926000" />
       <workItem from="1551515177523" duration="28376000" />
       <workItem from="1551547626088" duration="606000" />
+      <workItem from="1551548485547" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103794000" />
+    <option name="totallyTimeSpent" value="103831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -228,16 +229,6 @@
     <entry file="file://$PROJECT_DIR$/../Project1/catalog.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../2.Макет №2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="73" column="24" lean-forward="true" selection-start-line="67" selection-start-column="20" selection-end-line="73" selection-end-column="24" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Project3/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -253,15 +244,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="11645">
           <caret line="685" column="17" selection-start-line="685" selection-start-column="17" selection-end-line="685" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../2.Макет №2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="54" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="396" column="16" selection-start-line="396" selection-start-column="13" selection-end-line="396" selection-end-column="16" />
+        <state relative-caret-position="102">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
             <element signature="n#svg#0;n#a#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#button#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
