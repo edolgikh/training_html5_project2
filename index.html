@@ -51,7 +51,10 @@
             </svg>
             <span class="main-txt">Waxom</span>
         </a>
+
         <nav class="main-header_nav">
+            <input id="main-header_nav_toggle" type="checkbox" class="header_nav_toggle">
+            <label for="main-header_nav_toggle" class="main-header_nav_toggle_icon"></label>
             <ul class="main-header_menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About us</a></li>
@@ -61,23 +64,27 @@
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">Shortcodes</a></li>
                 <li><a href="#">Contact</a></li>
+                <li>
+                    <button type="button" class="main-header_fist_cart">
+                        <svg class="main-header_fist_cart_pic" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path d="M 15 3C 15 3 13.5 3 13.5 3 13.5 1.34 11.48-0 9-0 6.51-0 4.5 1.34 4.5 3 4.5 3 3 3 3 3 1.35 3 0 4.34 0 6 0 6 0 21 0 21 0 22.65 1.35 23.99 3 23.99 3 23.99 15 23.99 15 23.99 16.65 23.99 17.99 22.65 17.99 21 17.99 21 17.99 6 17.99 6 17.99 4.34 16.65 3 15 3ZM 9 1.5C 10.66 1.5 12 1.96 12 3 12 3 6 3 6 3 6 1.96 7.34 1.5 9 1.5ZM 16.49 21C 16.49 21.82 15.82 22.49 15 22.49 15 22.49 3 22.49 3 22.49 2.17 22.49 1.5 21.82 1.5 21 1.5 21 1.5 19.5 1.5 19.5 1.5 19.5 16.49 19.5 16.49 19.5 16.49 19.5 16.49 21 16.49 21ZM 16.49 18C 16.49 18 1.5 18 1.5 18 1.5 18 1.5 6 1.5 6 1.5 5.17 2.17 4.5 3 4.5 3 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 9 4.5 9 4.5 9 6 9 6 9 6 9 6 4.5 6 4.5 6 4.5 12 4.5 12 4.5 12 4.5 12 9 12 9 12 9 13.5 9 13.5 9 13.5 9 13.5 4.5 13.5 4.5 13.5 4.5 15 4.5 15 4.5 15.82 4.5 16.49 5.17 16.49 6 16.49 6 16.49 18 16.49 18Z"/>
+                        </svg>
+                    </button>
+                </li>
+                <li>
+                    <form class="main-header_form" action="#" method="post">
+                        <button type="button" class="main-header_form_button">
+                            <svg xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+                                <path d="M 23.76 22.68C 23.76 22.68 17.57 16.59 17.57 16.59 19.19 14.82 20.19 12.49 20.19 9.93 20.19 4.44 15.67-0 10.09-0 4.52-0 0 4.44 0 9.93 0 15.42 4.52 19.86 10.09 19.86 12.5 19.86 14.71 19.03 16.45 17.64 16.45 17.64 22.66 23.76 22.66 23.76 22.97 24.06 23.46 24.06 23.76 23.76 24.06 23.46 24.06 22.98 23.76 22.68ZM 10.09 18.33C 5.38 18.33 1.55 14.57 1.55 9.93 1.55 5.29 5.38 1.52 10.09 1.52 14.81 1.52 18.63 5.29 18.63 9.93 18.63 14.57 14.81 18.33 10.09 18.33Z"/>
+                            </svg>
+                        </button>
+                        <input class="main-header_form_search" type="search" placeholder="Search...">
+                    </form>
+                </li>
             </ul>
         </nav>
-        <button type="button" class="main-header_fist_cart">
-            <svg class="main-header_fist_cart_pic" xmlns="http://www.w3.org/2000/svg"
-                 xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path d="M 15 3C 15 3 13.5 3 13.5 3 13.5 1.34 11.48-0 9-0 6.51-0 4.5 1.34 4.5 3 4.5 3 3 3 3 3 1.35 3 0 4.34 0 6 0 6 0 21 0 21 0 22.65 1.35 23.99 3 23.99 3 23.99 15 23.99 15 23.99 16.65 23.99 17.99 22.65 17.99 21 17.99 21 17.99 6 17.99 6 17.99 4.34 16.65 3 15 3ZM 9 1.5C 10.66 1.5 12 1.96 12 3 12 3 6 3 6 3 6 1.96 7.34 1.5 9 1.5ZM 16.49 21C 16.49 21.82 15.82 22.49 15 22.49 15 22.49 3 22.49 3 22.49 2.17 22.49 1.5 21.82 1.5 21 1.5 21 1.5 19.5 1.5 19.5 1.5 19.5 16.49 19.5 16.49 19.5 16.49 19.5 16.49 21 16.49 21ZM 16.49 18C 16.49 18 1.5 18 1.5 18 1.5 18 1.5 6 1.5 6 1.5 5.17 2.17 4.5 3 4.5 3 4.5 4.5 4.5 4.5 4.5 4.5 4.5 4.5 9 4.5 9 4.5 9 6 9 6 9 6 9 6 4.5 6 4.5 6 4.5 12 4.5 12 4.5 12 4.5 12 9 12 9 12 9 13.5 9 13.5 9 13.5 9 13.5 4.5 13.5 4.5 13.5 4.5 15 4.5 15 4.5 15.82 4.5 16.49 5.17 16.49 6 16.49 6 16.49 18 16.49 18Z"/>
-            </svg>
-        </button>
-        <form class="main-header_form" action="#" method="post">
-            <button type="button" class="main-header_form_button">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
-                    <path d="M 23.76 22.68C 23.76 22.68 17.57 16.59 17.57 16.59 19.19 14.82 20.19 12.49 20.19 9.93 20.19 4.44 15.67-0 10.09-0 4.52-0 0 4.44 0 9.93 0 15.42 4.52 19.86 10.09 19.86 12.5 19.86 14.71 19.03 16.45 17.64 16.45 17.64 22.66 23.76 22.66 23.76 22.97 24.06 23.46 24.06 23.76 23.76 24.06 23.46 24.06 22.98 23.76 22.68ZM 10.09 18.33C 5.38 18.33 1.55 14.57 1.55 9.93 1.55 5.29 5.38 1.52 10.09 1.52 14.81 1.52 18.63 5.29 18.63 9.93 18.63 14.57 14.81 18.33 10.09 18.33Z"/>
-                </svg>
-            </button>
-            <input class="main-header_form_search" type="search" placeholder="Search...">
-        </form>
     </div>
     <section class="main-header_last">
         <a class="slogan_left" href="#">
@@ -193,7 +200,7 @@
                 </div>
                 <div class="projects_article_links">
                     <a class="projects_article_links_link" href="#">
-                        <svg  class="projects_article_links_icon" xmlns="http://www.w3.org/2000/svg"
+                        <svg class="projects_article_links_icon" xmlns="http://www.w3.org/2000/svg"
                              xmlns:xlink="http://www.w3.org/1999/xlink">
                             <path d="M 23.5 11.24C 23.5 11.24 21.57 13.17 21.57 13.17 21.57 13.17 18.39 16.36 18.39 16.36 18.23 16.53 18.05 16.68 17.87 16.82 16.1 18.22 13.75 18.52 11.72 17.72 10.97 17.43 10.26 16.97 9.64 16.36 9.64 16.36 12.28 13.71 12.28 13.71 13.24 14.67 14.79 14.67 15.74 13.71 15.74 13.71 17.77 11.69 17.77 11.69 17.77 11.69 20.86 8.6 20.86 8.6 21.81 7.64 21.81 6.09 20.86 5.14 19.9 4.18 18.35 4.18 17.4 5.14 17.4 5.14 14.94 7.59 14.94 7.59 13.41 6.88 11.65 6.76 10.03 7.22 10.03 7.22 14.76 2.49 14.76 2.49 17.16 0.09 21.1 0.09 23.5 2.49 25.92 4.91 25.92 8.84 23.5 11.24ZM 14.26 8.29C 15.01 8.58 15.73 9.04 16.34 9.66 16.34 9.66 13.7 12.3 13.7 12.3 12.74 11.35 11.19 11.35 10.24 12.3 10.24 12.3 5.13 17.42 5.13 17.42 4.17 18.37 4.17 19.92 5.13 20.88 6.08 21.83 7.63 21.83 8.59 20.88 8.59 20.88 10.94 18.52 10.94 18.52 12.95 19.33 13.49 19.39 15.85 18.85 15.85 18.85 11.23 23.52 11.23 23.52 8.82 25.93 4.89 25.93 2.48 23.52 0.08 21.12 0.08 17.18 2.48 14.77 2.48 14.77 7.6 9.66 7.6 9.66 7.67 9.59 7.75 9.5 7.84 9.43 9.63 7.83 12.13 7.44 14.26 8.29Z"/>
                         </svg>
@@ -476,16 +483,20 @@
     </section>
     <section class="main-content_partners">
         <a href="#">
-            <img src="img/partners/partners_01.png" alt="The_BARABER" title="The_BARABER" width="210" height="127">
+            <img class="main-content_partners_pic01" src="img/partners/partners_01.png" alt="The_BARABER"
+                 title="The_BARABER" width="210" height="127">
         </a>
         <a href="#">
-            <img src="img/partners/partners_02.png" alt="Delicious" title="Delicious" width="210" height="210">
+            <img class="main-content_partners_pic02" src="img/partners/partners_02.png" alt="Delicious"
+                 title="Delicious" width="210" height="210">
         </a>
         <a href="#">
-            <img src="img/partners/partners_03.png" alt="Designers" title="Designers" width="210" height="130">
+            <img class="main-content_partners_pic03" src="img/partners/partners_03.png" alt="Designers"
+                 title="Designers" width="210" height="130">
         </a>
         <a href="#">
-            <img src="img/partners/partners_04.png" alt="Royal" title="Royal" width="210" height="164">
+            <img class="main-content_partners_pic04" src="img/partners/partners_04.png" alt="Royal" title="Royal"
+                 width="210" height="164">
         </a>
     </section>
 </main>
@@ -557,11 +568,13 @@
         <div class="main-footer_first_block">
             <h3 class="first_block_headline">Our Twitter</h3>
             <div class="first_block_post">
-                <p class="first_block_txt"><a class="first_block_post_link" href="#">@waxom</a> nunc ipsum, mattis facilisis scelerisque quis, aliquam.</p>
+                <p class="first_block_txt"><a class="first_block_post_link" href="#">@waxom</a> nunc ipsum, mattis
+                    facilisis scelerisque quis, aliquam.</p>
                 <span class="first_block_date">3 mins ago</span>
             </div>
             <div class="first_block_post">
-                <p class="first_block_txt">Phasellus nunc <a class="first_block_post_link" href="#">#envato</a>, mattis facilisis scelerisque quis, aliquam ut elit.</p>
+                <p class="first_block_txt">Phasellus nunc <a class="first_block_post_link" href="#">#envato</a>, mattis
+                    facilisis scelerisque quis, aliquam ut elit.</p>
                 <span class="first_block_date">5 hours ago</span>
             </div>
             <div class="first_block_post">
@@ -592,8 +605,9 @@
             </nav>
         </div>
         <div class="main-footer_last_right">
-            <span class="main-footer_last_right_txt main-footer_last_right_border" >Designed by <a class="main-footer_last_logo_link" href="#">ThemeFire</a></span>
-            <span class="main-footer_last_right_txt" >Only on <a class="main-footer_last_logo_link" href="#">Envato Market</a></span>
+            <span class="main-footer_last_right_txt main-footer_last_right_border">Designed by <a
+                    class="main-footer_last_logo_link" href="#">ThemeFire</a></span>
+            <span class="main-footer_last_right_txt">Only on <a class="main-footer_last_logo_link" href="#">Envato Market</a></span>
 
         </div>
     </div>
